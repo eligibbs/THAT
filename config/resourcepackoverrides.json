@@ -1,0 +1,7 @@
+{
+  "schema_version": "2",
+  "default_packs": [
+    "file/TRACT-1.0.zip",
+    "file/FreshAnimations_v1.9.2.zip"
+  ]
+}

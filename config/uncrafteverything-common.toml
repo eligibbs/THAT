@@ -1,0 +1,34 @@
+[Experience]
+	#The type of experience to be used.
+	#Allowed Values: LEVEL, POINT
+	experienceType = "POINT"
+	#The default amount of experience point/level required to uncraft an item. More detailed exp can me configured in uncrafteverything-exp.json
+	# Default: 1
+	# Range: > 0
+	experiences = 0
+
+[Restrictions]
+	#The type of restriction to be used.
+	#Allowed Values: BLACKLIST, WHITELIST
+	restrictionType = "BLACKLIST"
+	#A list of items that can/cannot be uncrafted depending on type of restriction.
+	#Invalid input will cause config reset at runtime.
+	#Format: modid:item_name / modid:* / modid:*_glass / modid:black_* / modid:red_*_glass / modid:red_*_glass* / #modid:item_tag_name
+	#Press F3 + h in game and hover item to check their modid:name
+	restrictions = ["uncrafteverything:uncrafting_table", "minecraft:crafting_table"]
+
+[AllowEnchantedItems]
+	#Allow uncrafting of enchanted items. [true/false]
+	allowEnchantedItems = true
+
+[AllowUnSmithing]
+	#Allow uncrafting of items that obtained from smithing (Trimmed Armor/Netherite Armor). [true/false]
+	allowUnSmithing = true
+
+[AllowDamaged]
+	#Allow uncrafting of damaged items. [true/false]
+	allowDamaged = true
+
+[PreventModdedIngredientsFromVanillaItems]
+	#Prevents vanilla items (e.g., iron axe) from being uncrafted using modded recipes. This helps avoid potential duplication or unintended outputs caused by modded ingredients. [true/false]
+	preventModdedIngredientsFromVanillaItems = true
