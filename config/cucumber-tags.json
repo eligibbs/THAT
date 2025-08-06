@@ -2,7 +2,7 @@
   "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
   "c:ingots/aluminum": "tfmg:aluminum_ingot",
   "c:ingots/constantan": "tfmg:constantan_ingot",
-  "c:ingots/tin": "null",
+  "c:ingots/tin": "mekanism:ingot_tin",
   "c:ingots/iridium": "null",
   "c:gems/sapphire": "silentgems:sapphire",
   "c:ingots/bronze": "silentgear:bronze_ingot",

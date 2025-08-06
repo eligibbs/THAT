@@ -74,6 +74,9 @@
     "entity": true,
     "entity_variant": true
   },
+  "mekanismcovers": {
+    "cover_component": true
+  },
   "cobblemonintegrations": {
     "healer": true,
     "fossil_analyzer": true,
@@ -106,6 +109,13 @@
   },
   "jadeaddons.lootr": {
     "info": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
   },
   "toms_storage": {
     "inventory_config": true,

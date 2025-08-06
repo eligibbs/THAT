@@ -1,8 +1,8 @@
 {
-  "koStreakPoints": 0,
-  "koCountPoints": 0,
-  "captureStreakPoints": 1,
-  "captureCountPoints": 0,
+  "koStreakPoints": 0.0,
+  "koCountPoints": 0.0,
+  "captureStreakPoints": 1.0,
+  "captureCountPoints": 0.0,
   "thresholds": {
     "5": 1.0,
     "10": 2.0,
